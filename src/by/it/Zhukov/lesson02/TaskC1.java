@@ -1,5 +1,7 @@
 package by.it.Zhukov.lesson02;
 
+import java.util.Scanner;
+
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и выводит их сумму на экран в виде
 
@@ -12,10 +14,10 @@ Sum = 60
 */
 class TaskC1 {
     public static void main(String[] args) {
-        int i = 34;
-        int j = 26;
-        int k = i + j;
-        System.out.println(i + j + "=" + k);
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("Sum = "+(a + b));
     }
 }
 
