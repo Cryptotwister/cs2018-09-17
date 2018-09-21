@@ -11,9 +11,11 @@ Sum = 60
 
 */
 class TaskC1 {
-
-
-
-
-
+    public static void main(String[] args) {
+        int i = 34;
+        int j = 26;
+        int k = i + j;
+        System.out.println(i + j + "=" + k);
+    }
 }
+
