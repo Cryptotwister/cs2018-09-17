@@ -30,12 +30,19 @@ package by.it.Zhukov.lesson02;
 
 */
 class TaskC3 {
-  //  double getWeight (int m){
-  //      int r100=(int) (res*100);
+  //  static double getWeight (int m){
+  //      double res=m*3.86/9.81;
+  //      int r100=(int)(res*100);
   //      double delta=res*100-r100;
   //      if (delta>=0.5)
   //          return (r100+1)/100.0;
   //      else
   //          return (r100)/100.0;
+  //  }
+
+  //  public static void main(String[] args) {
+  //      Scanner sc=new Scanner(System.in);
+  //      int i=sc.nextInt()
+
     }
 
